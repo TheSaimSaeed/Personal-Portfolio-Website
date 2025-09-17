@@ -9,7 +9,7 @@ const About = () => {
                     We are a dedicated non-profit organization focused on promoting blood donation. Our goal is to save lives by facilitating connections between generous donors and patients in need. Together, we can make a positive impact in our community!
                 </p>
                 <img 
-                    src="path_to_your_image.jpg" 
+                    src="./src/images/image.png" 
                     alt="Blood donation event" 
                     className="mx-auto rounded-lg shadow-lg"
                 />

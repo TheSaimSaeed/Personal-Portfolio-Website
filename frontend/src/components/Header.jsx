@@ -1,13 +1,13 @@
 import React from 'react';
 
-const Header = ({ selectedBloodGroup, setSelectedBloodGroup, fetchDonors }) => {
+const Header = ({ selectedBloodGroup, setSelectedBloodGroup}) => {
 
 
     const bloodGroups = ['A+', 'A-', 'B+', 'B-', 'AB+', 'AB-', 'O+', 'O-'];
 
     const handleChange = (e) => {
         setSelectedBloodGroup(e.target.value);
-        fetchDonors(e.target.value);
+       
     };
 
     return (
